@@ -33,13 +33,14 @@ function handleAddProduct(getitem){
     // console.log(getitem);
     let copycontent=[...favoritesList];
     let index=copycontent.findIndex((item)=>item.id===getitem.id);
+    console.log(index)
     if(index===-1)
     {
         copycontent.push(getitem);
     }
     else 
    {
-    copycontent.splice(index);
+    copycontent.splice(index,1);
    }
     
     setFavoritesList(copycontent);

@@ -12,7 +12,7 @@ const Recipeitem = ({item}) => {
      <NavLink to={`/details/${item.id}`}>
      <button className='btn1'>Recipe Details</button>
      </NavLink>
-     {/* <button className='btn1'>Add to Favorites</button> */}
+    
      </div>
     </div>
     </>

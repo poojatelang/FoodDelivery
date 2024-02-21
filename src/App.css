@@ -65,7 +65,6 @@ form input{
     justify-content: center;
     align-items: center;
     background-color: rgb(6, 206, 172);
-    border:1px solid black;
 }
 .recipedetails img{
    width:280px;
@@ -87,4 +86,20 @@ form input{
     text-align: center;
     padding: 20px;
     text-decoration: underline;
+}
+.favoriteitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 206, 172);
+    margin:20px;
+    border:1px solid black;
+
+}
+.favoriteitems .btn3{
+    margin-top:0px;
+    margin-bottom: 1rem;
+    height:40px;
+    background-color: red;
 }
